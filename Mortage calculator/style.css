@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.calculator {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.form-section {
+    background-color: #ffffff;
+    padding: 40px;
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-section .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-section h2 {
+    font-size: 24px;
+}
+
+.clear-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group.inline > div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group.inline > div:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    background-color: #dff67b;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c7e06b;
+}
+
+.result-section {
+    background-color: #12304e;
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.result-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.result-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
